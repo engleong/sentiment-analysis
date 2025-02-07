@@ -79,7 +79,7 @@ def main():
     for item in news_items:
         print(f"Title: {item['title']}")
         print(f"Description: {item['description']}")
-        print(f"Sentiment Label: {item['label']}")
+        print(f"Sentiment Label: {item['sentiment']}")
         print(f"Sentiment Score: {item['score']}\n")
 
 if __name__ == "__main__":
