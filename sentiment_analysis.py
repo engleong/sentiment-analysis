@@ -50,7 +50,7 @@ def check_news(start_date, end_date, keywords):
             score = result[0]['score']
 
             # Append the news item to the list
-            if (sentiment == 'positive' or sentiment == 'negative') and score >= 0.9:
+            if (sentiment == 'positive' or sentiment == 'negative'):
                 news_items.append({
                     "title": title,
                     "description": description,
