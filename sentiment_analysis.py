@@ -45,6 +45,7 @@ def check_news(start_date, end_date, keywords):
             # sentiment = sid.polarity_scores(content)
             # compound_score = sentiment.get("compound", 0)
             result = finbert(content)
+            print(f'result={result}')
             sentiment = result[0]['label']
             score = result[0]['score']
 
