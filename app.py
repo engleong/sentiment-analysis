@@ -3,6 +3,9 @@ from datetime import date, timedelta
 from sentiment_analysis import check_news
 import pandas as pd
 
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
+
 # --- Streamlit UI ---
 st.set_page_config(layout="wide")
 st.title("📊 Sentiment Check")
