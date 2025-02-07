@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 from transformers import pipeline, AutoModelForSequenceClassification
 
-finbert = pipeline("text-classification", model="ProsusAI/finbert", framework="pt")
+finbert = pipeline("text-classification", model="ProsusAI/finbert", framework="tf")
 
 model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert")
 print('model.config: ', model.config)
