@@ -3,3 +3,4 @@ requests==2.31.0
 streamlit==1.42.0
 tensorflow==2.18.0
 tf_keras==2.18.0
+torch==2.2.2
