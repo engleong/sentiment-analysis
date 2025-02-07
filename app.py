@@ -2,8 +2,6 @@ import streamlit as st
 from datetime import date, timedelta
 from sentiment_analysis import check_news
 import pandas as pd
-import io
-from st_aggrid import AgGrid, GridOptionsBuilder
 
 # --- Streamlit UI ---
 st.set_page_config(layout="wide")
