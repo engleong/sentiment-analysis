@@ -10,7 +10,7 @@ print('model.config: ', model.config)
 # --- Configuration ---
 
 # Replace with your actual NewsAPI API key
-NEWS_API_KEY = "0cd13d0cd3444de69d1fcd3e0e33c2c4"
+NEWS_API_KEY = "abcdef"
 
 # URL for fetching news (using 'everything' to allow date filtering)
 NEWS_API_URL = "https://newsapi.org/v2/everything"
